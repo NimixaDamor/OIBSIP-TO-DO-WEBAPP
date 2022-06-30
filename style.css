@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(1, 14, 12);
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 40;
+	text-align: center;
+	margin: 2rem 0 4rem; 
+	font-family:'Times New Roman', Times, serif;
+}
+
+.title{
+	color: #d0ff00c3;
+	text-transform: uppercase;
+	font-weight: 760;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    height: 45px;
+    border-radius: 22px;
+    width: 400px;
+    margin: 0.30rem;
+    transition: 1.1s;
+    font-size: 1.20rem;
+}
+
+.add{
+    height: 45px;
+    border-radius: 22px;
+    width: 50px;
+    background-color: #d0ff00c3;
+    color: white;
+    cursor: pointer;
+    transition: 1.1s;
+    margin: 0.20rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 5rem;
+}
+
+.item{
+	padding: 0.7rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.1rem;
+}
+
+.item_input{
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 220px;
+}
+
+.edit{
+    background: none;
+	outline: none;
+	border: none;
+	color: #d0ff00c3;
+	font-size: 1.4rem;
+	font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 1.4rem;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	cursor: pointer;
+}
